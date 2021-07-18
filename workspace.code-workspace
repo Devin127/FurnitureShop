@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "css",
+			"path": "..\\bootstrap-5.0.2\\bootstrap-5.0.2\\dist\\css"
+		},
+		{
+			"name": "js",
+			"path": "..\\bootstrap-5.0.2\\bootstrap-5.0.2\\dist\\js"
+		},
+		{
+			"name": "FurnitureShop",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FurnitureShop"
+	}
+}

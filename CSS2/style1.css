@@ -2,25 +2,20 @@ body {
     font-size: 62.5%;
     font-family:arial, sans-serif;
 }
-/* Carousel Styling */
-.slide1 {
-    background-image: url('images/1.jpg');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    }
-    .slide2 {
-    background-image: url('images/2.jpg');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    }
-    .slide3 {
-    background-image: url('images/3.jpg');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    }
+
+
+      .zoom:hover {
+        display: inline-block;
+        overflow:hidden;
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+        -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+        
+      }
