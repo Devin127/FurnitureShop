@@ -20,7 +20,7 @@
         <title>Furniture Shop</title>
     </head>
     <body>
-      <!-- Make a shopping basket that does not display when it is empty, but displays as a sticky carasoul once it has something in it. -->
+      <script src="https://unpkg.com/Vue"></script>
       <br>
       <br>
       <div class="page-header">
@@ -44,7 +44,7 @@
                     <a class="nav-link" href="Shop.html"> Shop </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Contact2.html"> Contact </a>
+                    <a class="nav-link" href="Contact.html"> Contact </a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -54,12 +54,59 @@
               </div>
             </div>
           </nav>
+           <!-- Make a shopping basket that does not display when it is empty, but displays as a sticky carasoul once it has something in it. -->
+      <div id="shopCart"></div>
+      
+      <script>
+        let cart = new Vue({
+          el: "#shopCart",
+          data: {
+            items: [
+              {label: "#",
+              selected: false}
+              
+            ]
+          },
+          state: "default",
+
+          methods: {
+            saveItem(){
+              this.items.push({
+                label : this.myModel, selected : false
+              });
+            }
+          },
+          deleteItem(){
+            this.items.splice(this,items.indexOf(this.items[0]),1)
+          },
+          computed : {
+            sortedItems(){
+              return this.items.slice(0).reverse();
+            }
+          }
+
+        })
+
+        document.getElementById("shopCart").innerHTML = "cart.$data.items";
+      </script>
           <img src="images/Banner.jpg" class="d-block w-100" alt="...">
           <main>
             <section class="py-5 text-center container">
               <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
                   <h1 class="fw-light">Featured Products</h1>
+                  <!-- Featured Products have an image that zooms in when hovered over.
+                        when clicked on, they open up a gallery for that catagory.
+                      the gallery has an add to cart button on it
+                      there is a description of each item
+                      there is a price on the item and the total of the cart is added to the left -->
+                      <!-- in the Gallery -->
+                      <!-- Picture 1-6 is couches -->
+                      <!-- Picture 7-12 is beds -->
+                      <!-- Picture 13-18 is Coffee Tables -->
+                      <!-- Picture 19-24 is Dining Room Tables -->
+                      <!-- Picture 25-30 is Home Office Desks -->
+                      <!-- Picture 31-36 is Home Decoration -->
                   <p class="lead text-muted">All Pictures are just Place Holders</p> 
                 </div>
               </div>
