@@ -5,13 +5,11 @@ body {
 
 
       .zoom:hover {
-        display: inline-block;
-        overflow:hidden;
-        -ms-transform: scale(1.1); /* IE 9 */
-        -webkit-transform: scale(1.1); /* Safari 3-8 */
-        transform: scale(1.1); 
+        vertical-align: middle;
+        -ms-transform: scale(1.04); /* IE 9 */
+        -webkit-transform: scale(1.04); /* Safari 3-8 */
+        transform: scale(1.04); 
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
         -webkit-transition: all 1s ease;
        -moz-transition: all 1s ease;
          -o-transition: all 1s ease;
@@ -19,3 +17,69 @@ body {
             transition: all 1s ease;
         
       }
+      .galleryButton{
+        padding:0;
+        vertical-align: middle;
+        align-content: center;
+        display:inline-block;
+        overflow:hidden;
+        border: none;
+        width: 100%;
+        height: auto;
+      }
+
+.name {
+  text-align: left;
+}
+.surname {
+  text-align:left;
+}
+.email {
+  text-align:left;
+}
+
+#logo1 {
+  max-width: 80px;
+  height:auto;
+}
+
+.bannerImage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.page-header {
+  position: absolute;
+  top:30;
+  vertical-align: center;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: inherit;
+  background-attachment: fixed;
+  width:100%;
+  height: auto;
+  border-radius: 20px;
+
+  
+}
+.page-header:before{
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(0.1px);
+    background: inherit;
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.col {
+  
+}
