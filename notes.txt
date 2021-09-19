@@ -1,16 +1,4 @@
-Vue is a javascript framework used for building web interfaces and single page front end, web applications
-    Directives v-
-    vue instance
-    vue properties
-    vue methods
+Add collapse button to Nav background
+Get Total() to work on stack 
+Add Contact Pictures
 
-    vue updates browser vue port
-    Dont have to Download vue code into projects
-
-    view supports OOP Paradigm
-    view supports MVC Paradigm  (Model View Controller) Updates view by information contained in model by input of controller
-    view supports MVVM Paradigm ()
-
-    Vue Can be split into two components:
-        1. What the user sees and interacts with from, 
-        2. What happens in the background after a user interacts with the application’s interface (or presentation layer).

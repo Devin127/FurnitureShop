@@ -1,0 +1,106 @@
+[{
+    "id" : 1,
+    "name" : "Double King Sized Bed", 
+    "image" : "images/beds/bigWhiteBed.jpg",
+    "price" : 20000, 
+    "description" : "A double king sized bed with a white interior and a black cover"
+  },
+  {
+    "id" : 2, 
+    "name" : "Queen Sized Bed with Storage Drawers", 
+    "image" : "images/beds/darkDrawerBed.jpg", 
+    "price" : 15000, 
+    "description" : "A queen sized bed with a dark storage drawer"
+  },
+  {
+    "id" : 3, 
+    "name" : "King Sized Bed", 
+    "image" : "images/beds/fancyBed.jpg", 
+    "price" : 12000, 
+    "description" : "A king sized bed with a white interior and a black cover"
+  },
+  {
+    "id" : 4, 
+    "name" : "Pine King", 
+    "image" : "images/beds/fancyPineBed.jpg", 
+    "price" : 8000, 
+    "description" : "A twin sized bed with a white interior and a black cover"
+  },
+  {
+    "id" : 5, 
+    "name" : "Queen Sized Bed", 
+    "image" : "images/beds/royalBed.jpg", 
+    "price" : 15000, 
+    "description" : "A queen sized bed with a white interior and a black cover"
+  },
+  {
+    "id" : 6, 
+    "name" : "Glass coffee table", 
+    "image" : "images/coffee/glassCoffeeTable.jpg", 
+    "price" : 3000, 
+    "description" : "Stylish Glass Coffee table"},
+  {
+    "id" : 7, 
+    "name" : "Wooden coffee table", 
+    "image" : "images/coffee/whiteCoffeeTable.jpg", 
+    "price" : 2000, 
+    "description" : "White Coffee table"},
+  {
+    "id" : 8, 
+    "name" : "Wooden Coffee Table on wheels", 
+    "image" : "images/coffee/whitewheelCoffeeTable.jpg", 
+    "price" : 3000, 
+    "description" : "Easy To Move coffee table"},
+  {
+    "id" : 9, 
+    "name" : "Two Piece Coffee table set", 
+    "image" : "images/coffee/yellowCoffeeTableSet.jpg", 
+    "price" : 2000, 
+    "description" : "Two tables One Price"},
+  {
+    "id" : 10, 
+    "name" : "Large Black Leather L-Shaped home Cinema Couch", 
+    "image" : "images/couches/blackLshape.jpg", 
+    "price" : 30000, 
+    "description" : "Stylish Black Leather L-Shaped home Cinema Couch "},
+  {
+    "id" : 11, 
+    "name" : "White Leather reading Lounger", 
+    "image" : "images/couches/fancyChair.jpg", 
+    "price" : 30000, "description" : "Single seated Reading chair"},
+  {
+    "id" : 12, 
+    "name" : "Black and white Home office desk", 
+    "image" : "images/desks/blackAndWhiteDesk.jpg", 
+    "price" : 2000, 
+    "description" : "A Stylish Work Station"},
+  {
+    "id" : 13, 
+    "name" : "Large L-Shaped Work Station", 
+    "image" : "images/desks/LshapeOffice.jpg", 
+    "price" : 4000, 
+    "description" : "A spacious Corner Unit Desk"},
+  {
+    "id" : 14, 
+    "name" : "Combined Leisure and Home Office Station", 
+    "image" : "images/desks/officeBed.jpg", 
+    "price" : 13000, 
+    "description" : "Combine work, relaxation and Play"},
+  {
+    "id" : 15, 
+    "name" : "Truss Table styled desks", 
+    "image" : "images/desks/trussTableOfficeDesk.jpg", 
+    "price" : 1500, 
+    "description" : "Easy to assemble and move"},
+  {
+    "id" : 16, 
+    "name" : "Jet Black Chair", 
+    "image" : "images/misc/blackChair.jpg", 
+    "price" : 1000, 
+    "description" : "A chair for any Environment"},
+  {
+    "id" : 17, 
+    "name" : "Dinning Room Table", 
+    "image" : "images/misc/whiteDiningRoomTable.jpg", 
+    "price" : 10000, "description" : "Dining Room Table for the family"}
+]
